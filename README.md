@@ -18,7 +18,7 @@ Start the test by Forking this repository, and complete the following tasks.<br>
 
 1: Setup the reporsitory<br>
 make sure you have pnpm installed<br>
-Introduce TurboRepo into your forked repository by making a new folder called `project` and initializing A new turborepo inside the folder.<br>
- 
+Introduce TurboRepo into your forked repository by making a new folder called `project` and initializing A new turborepo inside the folder and make sure to use the pnpm workspace setup<br>
+
 
 
