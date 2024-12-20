@@ -2,12 +2,14 @@
   "name": "ui",
   "version": "1.0.0",
   "private": true,
-
   "scripts": {
     "lint": "eslint . --max-warnings 0"
   },
   "devDependencies": {
     "react": "^18.2.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.37"
   }
 }
