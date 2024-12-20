@@ -1,29 +1,30 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface Pokemon {
   name: string;
 }
 
 interface PokemonState {
-  list: Pokemon[];
+  pokemonList: Pokemon[];
 }
 
 const initialState: PokemonState = {
-  list: [],
+  pokemonList: [], 
 };
 
 const pokemonSlice = createSlice({
-  name: "pokemons",
+  name: 'pokemon',
   initialState,
   reducers: {
-    setPokemons: (state, action: PayloadAction<Pokemon[]>) => {
-      state.list = action.payload;
+    setPokemonList: (state, action: PayloadAction<Pokemon[]>) => {
+      state.pokemonList = action.payload;
     },
     removePokemon: (state, action: PayloadAction<string>) => {
-      state.list = state.list.filter(pokemon => pokemon.name !== action.payload);
+      state.pokemonList = state.pokemonList.filter(pokemon => pokemon.name !== action.payload);
     },
   },
 });
 
-export const { setPokemons, removePokemon } = pokemonSlice.actions;
+export const { setPokemonList, removePokemon } = pokemonSlice.actions;
+
 export default pokemonSlice.reducer;
