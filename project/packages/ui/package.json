@@ -10,6 +10,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@types/react": "^18.2.37"
+    "@reduxjs/toolkit": "^2.5.0",
+    "@types/react": "^18.2.37",
+    "react-redux": "^9.2.0"
   }
 }
