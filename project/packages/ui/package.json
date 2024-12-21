@@ -8,10 +8,5 @@
   "devDependencies": {
     "react": "^18.2.0",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "@reduxjs/toolkit": "^2.5.0",
-    "@types/react": "^18.2.37",
-    "react-redux": "^9.2.0"
   }
 }

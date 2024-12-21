@@ -7,6 +7,22 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@reduxjs/toolkit':
+        specifier: ^2.5.0
+        version: 2.5.0(react-redux@9.2.0(@types/react@18.2.39)(react@18.2.0)(redux@5.0.1))(react@18.2.0)
+      '@types/react':
+        specifier: ^18.2.37
+        version: 18.2.39
+      '@types/react-dom':
+        specifier: ^18.2.15
+        version: 18.2.17
+      react-redux:
+        specifier: ^9.2.0
+        version: 9.2.0(@types/react@18.2.39)(react@18.2.0)(redux@5.0.1)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
     devDependencies:
       prettier:
         specifier: ^3.1.0
@@ -23,9 +39,6 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-      react-redux:
-        specifier: ^9.2.0
-        version: 9.2.0(@types/react@18.2.39)(react@18.2.0)(redux@5.0.1)
       ui:
         specifier: workspace:*
         version: link:../../packages/ui
@@ -62,16 +75,6 @@ importers:
         version: 5.0.4
 
   packages/ui:
-    dependencies:
-      '@reduxjs/toolkit':
-        specifier: ^2.5.0
-        version: 2.5.0(react-redux@9.2.0(@types/react@18.2.39)(react@18.2.0)(redux@5.0.1))(react@18.2.0)
-      '@types/react':
-        specifier: ^18.2.37
-        version: 18.2.39
-      react-redux:
-        specifier: ^9.2.0
-        version: 9.2.0(@types/react@18.2.39)(react@18.2.0)(redux@5.0.1)
     devDependencies:
       react:
         specifier: ^18.2.0

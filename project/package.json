@@ -14,5 +14,12 @@
   "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "react-redux": "^9.2.0",
+    "typescript": "^5.2.2"
   }
 }
