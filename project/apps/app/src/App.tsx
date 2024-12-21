@@ -1,7 +1,7 @@
 // App.tsx
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { setPokemonList } from 'ui/src/pokemonSlice';
+import { setPokemonList } from 'project';
 import List from 'ui/components/List';
 
 const App = () => {

@@ -5,6 +5,10 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0"
   },
+  "dependencies": {
+    "project":"workspace:*"
+    
+  },
   "devDependencies": {
     "react": "^18.2.0",
     "typescript": "^5.2.2"

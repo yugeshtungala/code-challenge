@@ -33,6 +33,9 @@ importers:
 
   apps/app:
     dependencies:
+      project:
+        specifier: workspace:*
+        version: link:../..
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -75,6 +78,10 @@ importers:
         version: 5.0.4
 
   packages/ui:
+    dependencies:
+      project:
+        specifier: workspace:*
+        version: link:../..
     devDependencies:
       react:
         specifier: ^18.2.0

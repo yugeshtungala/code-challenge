@@ -1,6 +1,9 @@
+import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { removePokemon } from '../src/pokemonSlice';
-import { RootState } from '../src/store';
+import { RootState } from 'project/Redux/store';
+
+import { removePokemon } from 'project/Redux/feature/pokemonSlice';
+
 import './List.css'
 
 interface Pokemon {
